@@ -1,4 +1,13 @@
 import helpers
+import utils
+import file_handler
+
+def show_text(text, title):
+    utils.display_statistics(text)
+    print()
+    print(title)
+    print()
+    print(text)
 
 def display_menu():
     print("""
@@ -23,12 +32,19 @@ def main():
                 text = helpers.paste_text()
 
                 if text:
-                    print()
-                    print("You entered..")
-                    print(text)
+                    show_text(text,"You entered..")
             case 2:
                 print()
-                print("Load Text File selected")
+                filename = input("Enter filename with path: ")
+                content = file_handler.load_text(filename)
+                if content is None:
+                    continue
+                if not content:
+                    print()
+                    print("No content in file..")
+                    continue
+
+                show_text(content,"Loaded text..")
             case 3:
                 print()
                 print("Thank you for using AI Notes Generator..\n")
