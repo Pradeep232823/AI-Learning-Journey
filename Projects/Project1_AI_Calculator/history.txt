@@ -1,0 +1,8 @@
+History of AI Calculator
+Timestamp: 2026-08-07 13:05 -> Addition Done on 1, 2, 6, 2, 3 and The result is: 14
+Timestamp: 2026-08-07 13:05 -> Subtraction Done on 2, -9, 2, 3, 4 and The result is: 2
+Timestamp: 2026-08-07 13:06 -> Multiplication Done on 32, 43, 2 and The result is: 2752
+Timestamp: 2026-08-07 13:06 -> Division Done on 78, 3 and The result is: 26.0
+Timestamp: 2026-08-07 13:06 -> Power Done on 5, 2 and The result is: 25
+Timestamp: 2026-08-07 13:06 -> Square root Done on 81 and The result is: 9.0
+Timestamp: 2026-08-07 13:07 -> Percentage Done on 23, 50 and The result is: 46.0
