@@ -1,1 +1,1 @@
-Python is a high-level programming language. It is easy to learn and widely used in software development. Python is popular in data science, machine learning, artificial intelligence, and web development. Its simple syntax makes it an excellent language for beginners.
+Python is a high-level programming language. It is easy to learn and widely used in software development. Python is popular in data science, machine learning, artificial intelligence, and web development.
