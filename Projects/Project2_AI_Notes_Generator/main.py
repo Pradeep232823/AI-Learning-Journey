@@ -20,8 +20,12 @@ def main():
 
         match choice:
             case 1:
-                print()
-                print("Paste Text selected..")
+                text = helpers.paste_text()
+
+                if text:
+                    print()
+                    print("You entered..")
+                    print(text)
             case 2:
                 print()
                 print("Load Text File selected")
