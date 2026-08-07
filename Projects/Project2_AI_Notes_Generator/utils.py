@@ -4,6 +4,7 @@ def character_count(text):
 def word_count(text):
     lines = text.split("\n")
     words = []
+    
     for line in lines:
         words.extend(line.split())
     return len(words)

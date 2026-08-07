@@ -10,7 +10,7 @@ def load_text(filename):
         return None
     except PermissionError:
         print()
-        print("Permission denied..")
+        print("File permission denied..")
         return None
     except Exception as e:
         print()

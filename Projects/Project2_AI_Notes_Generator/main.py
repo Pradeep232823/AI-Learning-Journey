@@ -2,6 +2,7 @@ import helpers
 import utils
 import file_handler
 
+
 def show_text(text, title):
     utils.display_statistics(text)
     print()

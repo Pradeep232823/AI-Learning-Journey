@@ -14,6 +14,7 @@ def clean_text(text):
     return text
 
 def split_sentences(text):
+    
     if not text:
         return ""
     clean_sentence = clean_text(text)
