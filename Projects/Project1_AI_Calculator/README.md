@@ -23,6 +23,7 @@ This was my first Python project in my AI Learning Journey. The project focuses 
 
 ## 📁 Project Structure
 
+``` text
 AI-Calculator/
 │
 ├── main.py
@@ -31,6 +32,7 @@ AI-Calculator/
 ├── helpers.py
 ├── history.py
 └── history.txt
+```
 
 ## 🛠️ Technologies Used
 
@@ -49,14 +51,16 @@ Make sure Python is installed on your system.
 
 The application will display the main menu:
 
-*======= Welcome to AI Calculator =======*
+``` text
+======= Welcome to AI Calculator =======
 
-*===============*
-*Choose Action*
-*===============*
+===============
+Choose Action
+===============
 
-*1. Start Calculation*
-*2. Exit*
+1. Start Calculation
+2. Exit
+```
 
 Choose Start Calculation to access the calculator operations.
 
@@ -108,10 +112,12 @@ Calculates what percentage one value represents of another.
 
 **For example:**
 
-*Part value: 23*
-*Total value: 50*
+``` text
+Part value: 23
+Total value: 50
 
-*Percentage: 46.0*
+Percentage: 46.0
+```
 
 ## 📝 Calculation History
 
@@ -121,7 +127,7 @@ Each entry includes a timestamp, operation, input values, and result.
 
 **Example:**
 
-*Timestamp: 2026-08-07 13:07 -> Percentage Done on 23, 50 and The result is: 46.0*
+Timestamp: 2026-08-07 13:07 -> Percentage Done on 23, 50 and The result is: 46.0
 
 The history can be viewed from the calculator menu.
 
