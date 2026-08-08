@@ -2,3 +2,6 @@
 API Keys.txt
 __pycache__/
 *.pyc
+rough.py
+.venv/
+venv/
