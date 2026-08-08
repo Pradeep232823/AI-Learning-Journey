@@ -24,13 +24,13 @@ This was my first Python project in my AI Learning Journey. The project focuses 
 ## 📁 Project Structure
 
 AI-Calculator/
-│
-├── main.py
-├── calculator.py
-├── operations.py
-├── helpers.py
-├── history.py
-└── history.txt
+|
+|-- main.py
+|-- calculator.py
+|-- operations.py
+|-- helpers.py
+|-- history.py
+|-- history.txt
 
 ## 🛠️ Technologies Used
 
@@ -49,14 +49,14 @@ Make sure Python is installed on your system.
 
 The application will display the main menu:
 
-*======= Welcome to AI Calculator =======*
+======= Welcome to AI Calculator =======
 
-*===============*
-*Choose Action*
-*===============*
+===============
+Choose Action
+===============
 
-*1. Start Calculation*
-*2. Exit*
+1. Start Calculation
+2. Exit
 
 Choose Start Calculation to access the calculator operations.
 
