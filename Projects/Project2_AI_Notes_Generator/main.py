@@ -1,7 +1,7 @@
 import helpers
 import utils
 import file_handler
-
+import summarizer
 
 def show_text(text, title):
     utils.display_statistics(text)
@@ -34,6 +34,10 @@ def main():
 
                 if text:
                     show_text(text,"You entered..")
+                    process_summary("notes",text)
+                else:
+                    print()
+                    print("No data entered..")
             case 2:
                 print()
                 filename = input("Enter filename with path: ")
@@ -46,12 +50,37 @@ def main():
                     continue
 
                 show_text(content,"Loaded text..")
+
+                process_summary("file", content)
+
             case 3:
                 print()
                 print("Thank you for using AI Notes Generator..\n")
                 break
             case _:
                 helpers.invalid_choice()
+
+def process_summary(case, text):
+    summary = summarizer.generate_summary(text)
+    print()
+    print(f"====== Summary for your {case} ======")
+    print()
+    print(summary)
+
+    while True:
+        print()
+        save_choice = input("Do you want to save this summary (Y / N): ").strip().lower()
+
+        if save_choice == "y":
+            file_handler.save_summary(summary)
+            break
+        elif save_choice == "n":
+            print()
+            print("Exiting without saving summary..")
+            break
+        else:
+            helpers.invalid_choice()
+            continue
 
 if __name__ == "__main__":
     try:
