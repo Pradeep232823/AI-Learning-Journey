@@ -1,4 +1,3 @@
-````markdown
 # AI Chatbot
 
 A simple rule-based AI chatbot built with Python. This project is designed as a learning project to practice Python fundamentals, modular programming, file handling, user input validation, random responses, and basic session-based conversation history.
@@ -23,18 +22,18 @@ A simple rule-based AI chatbot built with Python. This project is designed as a 
 
 ## Commands
 
-| Command | Description |
-|---|---|
-| `help` | Show available commands |
-| `history` | Show conversation history for a selected date |
-| `clear` | Clear the current session's conversation |
-| `save` | Save the current session's conversation |
-| `save chat` | Save the current session's conversation |
-| `save conversation` | Save the current session's conversation |
-| `exit` | Exit the chatbot |
-| `bye` | Exit the chatbot |
-| `goodbye` | Exit the chatbot |
-| `see you` | Exit the chatbot |
+| Command               | Description                                   |
+|-----------------------|-----------------------------------------------|
+| **help**              | Show available commands                       |
+| **history**           | Show conversation history for a selected date |
+| **clear**             | Clear the current session's conversation      |
+| **save**              | Save the current session's conversation       |
+| **save chat**         | Save the current session's conversation       |
+| **save conversation** | Save the current session's conversation       |
+| **exit**              | Exit the chatbot                              |
+| **bye**               | Exit the chatbot                              |
+| **goodbye**           | Exit the chatbot                              |
+| **see you**           | Exit the chatbot                              |
 
 ## Supported Chatbot Inputs
 
@@ -99,15 +98,15 @@ Controls the main application flow.
 
 Responsibilities:
 
-* Starts the chatbot
-* Creates the current session
-* Handles commands
-* Gets user input
-* Sends messages to the chatbot
-* Displays responses
-* Records session start and close
-* Handles `KeyboardInterrupt`
-* Handles unexpected errors
+- Starts the chatbot
+- Creates the current session
+- Handles commands
+- Gets user input
+- Sends messages to the chatbot
+- Displays responses
+- Records session start and close
+- Handles `KeyboardInterrupt`
+- Handles unexpected errors
 
 ### `chatbot.py`
 
@@ -121,12 +120,12 @@ Contains the predefined response collections used by the chatbot.
 
 Response categories include:
 
-* Greeting responses
-* Unknown responses
-* Goodbye responses
-* Help responses
-* Python responses
-* FastAPI responses
+- Greeting responses
+- Unknown responses
+- Goodbye responses
+- Help responses
+- Python responses
+- FastAPI responses
 
 Responses are selected randomly using Python's `random` module.
 
