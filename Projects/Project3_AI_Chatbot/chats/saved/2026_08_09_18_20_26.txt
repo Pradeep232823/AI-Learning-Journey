@@ -1,0 +1,18 @@
+[18:20:26] Session Started
+
+[18:20:27]
+User: hi
+Bot: Hi! How can I help you today?
+
+[18:20:30]
+User: hello
+Bot: Hi! How can I help you today?
+
+[18:20:45]
+User: hi
+Bot: Hey! Good to see you.
+
+[18:20:50]
+User: python
+Bot: Python was created by Guido van Rossum. It was first released in February 1991.
+

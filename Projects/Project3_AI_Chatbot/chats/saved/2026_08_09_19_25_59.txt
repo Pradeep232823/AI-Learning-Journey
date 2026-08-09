@@ -1,0 +1,14 @@
+[19:25:59] Session Started
+
+[19:26:01]
+User: hello
+Bot: Greetings!
+
+[19:26:08]
+User: hi
+Bot: Hey! Good to see you.
+
+[19:26:09]
+User: he
+Bot: Can you please rephrase that?
+

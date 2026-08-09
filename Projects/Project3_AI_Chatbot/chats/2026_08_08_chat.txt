@@ -1,0 +1,16 @@
+[19:53:54]
+User: Hello
+Bot: Hi! How can I help you today?
+
+[19:55:02]
+User: hgih
+Bot: I am not sure how to reply to that.
+
+[19:55:22]
+User: python
+Bot: Python is an interpreted language. Code is executed line-by-line by the Python Interpreter, meaning it does not need to be compiled into machine code before running.
+
+[19:55:27]
+User: fastapi
+Bot: FastAPI is an asynchronous, open-source web framework built on top of Starlette (for web routing) and Pydantic (for data validation).
+

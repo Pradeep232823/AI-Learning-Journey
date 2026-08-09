@@ -1,0 +1,10 @@
+[18:29:09] Session Started
+
+[18:29:11]
+User: hello
+Bot: Hello there!
+
+[18:29:13]
+User: fastapi
+Bot: FastAPI is an asynchronous, open-source web framework built on top of Starlette (for web routing) and Pydantic (for data validation).
+

@@ -1,0 +1,108 @@
+[18:17:45] Session Started
+
+[18:17:54] Session Closed
+
+[18:19:41] Session Started
+
+[18:19:44]
+User: Hi
+Bot: Greetings!
+
+[18:19:46]
+User: Hello
+Bot: Hey! Good to see you.
+
+[18:20:03] Session Closed
+
+[18:20:26] Session Started
+
+[18:20:27]
+User: hi
+Bot: Hi! How can I help you today?
+
+[18:20:30]
+User: hello
+Bot: Hi! How can I help you today?
+
+[18:20:45]
+User: hi
+Bot: Hey! Good to see you.
+
+[18:20:50]
+User: python
+Bot: Python was created by Guido van Rossum. It was first released in February 1991.
+
+[18:21:00] Session Closed
+
+[18:27:43] Session Started
+
+[18:27:46]
+User: hello
+Bot: Hey! Good to see you.
+
+[18:27:49]
+User: hi
+Bot: Greetings!
+
+[18:27:59] Session Closed
+
+[18:29:09] Session Started
+
+[18:29:11]
+User: hello
+Bot: Hello there!
+
+[18:29:13]
+User: fastapi
+Bot: FastAPI is an asynchronous, open-source web framework built on top of Starlette (for web routing) and Pydantic (for data validation).
+
+[18:29:19] Session Closed
+
+[18:29:37] Session Started
+
+[18:29:41] Session Closed
+
+[19:21:26] Session Started
+
+[19:23:10]
+User: hello
+Bot: Hello there!
+
+[19:23:38] Session Closed
+
+[19:23:43] Session Started
+
+[19:23:45]
+User: hi
+Bot: Hello there!
+
+[19:23:47] Session Closed
+
+[19:23:56] Session Started
+
+[19:23:59]
+User: hi
+Bot: Hi! How can I help you today?
+
+[19:24:01]
+User: every
+Bot: Could you ask me something else?
+
+[19:24:35] Session Closed
+
+[19:25:59] Session Started
+
+[19:26:01]
+User: hello
+Bot: Greetings!
+
+[19:26:08]
+User: hi
+Bot: Hey! Good to see you.
+
+[19:26:09]
+User: he
+Bot: Can you please rephrase that?
+
+[19:26:20] Session Closed
+
