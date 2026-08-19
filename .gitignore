@@ -6,3 +6,4 @@ rough.py
 .venv/
 venv/
 .git/
+.pytest_cache/
