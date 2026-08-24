@@ -1,4 +1,3 @@
-````markdown
 # Document Processing RAG System
 
 A simple Retrieval-Augmented Generation (RAG) system built with Python.
@@ -33,7 +32,7 @@ Build context
 Send context to LLM
     ↓
 Generate final answer
-````
+```
 
 ## Features
 
