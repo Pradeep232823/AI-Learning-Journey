@@ -1,0 +1,10 @@
+Python is a programming language.
+
+Python is widely used for web development.
+FastAPI is a modern Python web framework.
+FastAPI can be used to build APIs.
+
+Python is also used for data science.
+Machine learning is another common application of Python.
+
+Python supports object-oriented programming.

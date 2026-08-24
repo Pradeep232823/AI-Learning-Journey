@@ -1,0 +1,29 @@
+Python uses an automated memory management system based on reference counting and a generational garbage collector. Every object in Python maintains a reference count, which tracks how many references point to that object. When an object's reference count drops to zero, its memory is deallocated immediately.
+
+To handle reference cycles—situations where two or more objects reference each other and cannot be freed by reference counting alone—Python employs a generational garbage collector (GC). The GC categorizes objects into three generations (Generation 0, 1, and 2) based on their age and survival through collection cycles. Generation 0 contains newly created objects. If an object survives a garbage collection cycle, it is promoted to Generation 1, and eventually to Generation 2. The `gc` module allows developers to inspect, disable, or manually trigger cycle collection.
+
+A decorator in Python is a design pattern used to modify or extend the behavior of a function or method without permanently altering its source code. In Python, functions are first-class objects, meaning they can be passed as arguments, returned from other functions, and assigned to variables.
+
+Decorators are applied using the `@decorator_name` syntax directly above a function definition. Under the hood, `@my_decorator` placed above `def my_function():` is syntactic sugar for `my_function = my_decorator(my_function)`.
+
+Common uses of decorators include:
+1. Logging and debugging execution time.
+2. Access control and authentication in web frameworks (e.g., Flask, Django).
+3. Caching and memoization using `functools.lru_cache`.
+
+To preserve the original function's name and docstring when creating decorators, the `functools.wraps` decorator should always be applied to the inner wrapper function.
+
+Python offers three primary paradigms for concurrent and parallel execution:
+
+1. Multithreading (`threading` module): Best for I/O-bound tasks (e.g., file operations, network requests). Threads share memory space. However, due to the Global Interpreter Lock (GIL), standard CPython threads do not achieve true CPU-parallel execution across multiple cores.
+
+2. Multiprocessing (`multiprocessing` module): Best for CPU-bound tasks (e.g., heavy mathematical computations, image processing). It spawns separate Python interpreter processes, bypassing the GIL entirely. Each process has its own dedicated memory space.
+
+3. Asynchronous Programming (`asyncio` module): Uses single-threaded event loops with `async` and `await` syntax. It is optimized for high-concurrency I/O operations where thousands of non-blocking tasks wait on network sockets or API responses without thread overhead.
+
+Choosing the right built-in collection type significantly impacts algorithm efficiency:
+
+- List (`list`): Dynamic array implementation. Lookups by index are O(1), but searching for an element (`x in list`) is O(n). Appending to the end is amortized O(1), whereas inserting or deleting at the beginning is O(n) because subsequent elements must shift.
+- Dictionary (`dict`): Hash map implementation. Key lookups, insertions, and deletions have an average-case time complexity of O(1). Dictionaries preserve key insertion order starting from Python 3.7.
+- Set (`set`): Hash table implementation containing unique elements. Membership testing (`x in set`), insertions, and deletions are average O(1).
+- Deque (`collections.deque`): Double-ended queue. Appends and pops from either end are O(1), making it far more efficient than a standard `list` for FIFO queue operations.

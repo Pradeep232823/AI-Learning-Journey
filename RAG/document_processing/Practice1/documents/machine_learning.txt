@@ -1,0 +1,14 @@
+Machine Learning (ML) is a branch of artificial intelligence focused on building systems that learn patterns from data to make predictions or decisions without being explicitly programmed. ML models identify underlying structures in historical datasets to generalize effectively to new, unseen inputs.
+
+Machine learning approaches are categorized into three primary paradigms:
+
+1. Supervised Learning: Models are trained on labeled datasets containing both inputs and ground-truth target outputs. The algorithm learns a mapping function from features to labels. Common tasks include regression (predicting continuous values like real estate prices) and classification (predicting discrete categories like spam vs. non-spam).
+
+2. Unsupervised Learning: Models receive unlabeled data and must discover hidden patterns, structures, or groupings independently. Common tasks include clustering (e.g., K-Means for customer segmentation) and dimensionality reduction (e.g., Principal Component Analysis for noise removal).
+
+3. Reinforcement Learning: An agent learns to make sequential decisions by taking actions within an environment to maximize cumulative rewards through trial and error interactions.
+
+The standard machine learning operational workflow follows distinct stages:
+- Data Preprocessing: Raw data is cleaned, missing values are imputed, categorical variables are encoded, and numerical features are standardized to optimize model convergence.
+- Dataset Splitting: Data is divided into training, validation, and test sets to prevent overfitting and accurately estimate generalization performance.
+- Model Evaluation: Algorithms are evaluated using metrics tailored to the task type, such as Accuracy, Precision, Recall, and F1-Score for classification, or Mean Squared Error (MSE) and R-squared for regression models.

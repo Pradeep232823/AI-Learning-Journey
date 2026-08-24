@@ -1,0 +1,9 @@
+FastAPI is a modern, high-performance web framework for building APIs with Python based on standard Python type hints. It is built on top of Starlette for web routing and Pydantic for data validation, serialization, and settings management. By using standard type annotations, FastAPI automatically generates interactive API documentation (via Swagger UI and ReDoc) and provides automatic request data validation, parsing, and error formatting.
+
+FastAPI is natively asynchronous and fully supports the async and await syntax. It runs on an Asynchronous Server Gateway Interface (ASGI) server, such as Uvicorn or Hypercorn, making it one of the fastest Python web frameworks available.
+
+Core features include:
+1. Data Validation: Pydantic models define the shape of incoming JSON payloads, path parameters, and query parameters. Invalid requests automatically return detailed JSON responses with a 422 Unprocessable Entity status code.
+2. Dependency Injection: FastAPI includes a powerful dependency injection system (using Depends). This allows developers to modularize code, handle database session lifecycles, and enforce authentication cleanly across routes.
+3. Automatic Documentation: OpenAPI endpoints are automatically exposed at /docs (Swagger UI) and /redoc without requiring manual configuration.
+4. Background Tasks: Built-in support for executing lightweight background operations after returning an HTTP response, useful for operations like sending emails without blocking the client.
