@@ -1,0 +1,6 @@
+Python is a high-level, general-purpose programming language known for its simple and readable syntax. It was created by Guido van Rossum and was first released in 1991. Python is an interpreted, dynamically typed, and object-oriented programming language.
+Python is easy to learn and is widely used by beginners as well as professional developers. It supports different programming concepts such as variables, data types, functions, loops, conditional statements, classes, and objects.
+Python has several built-in data types, including integers, floating-point numbers, strings, lists, tuples, sets, dictionaries, and Boolean values. Python also provides a large collection of built-in functions and libraries that make development easier.
+Python is commonly used for web development, data analysis, data science, machine learning, artificial intelligence, automation, scripting, scientific computing, and backend development.
+Some popular Python libraries and frameworks are NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow, PyTorch, Django, Flask, and FastAPI.
+Python is an open-source and cross-platform language, so Python programs can run on operating systems such as Windows, Linux, and macOS. Its large community and extensive collection of libraries make it one of the widely used programming languages.

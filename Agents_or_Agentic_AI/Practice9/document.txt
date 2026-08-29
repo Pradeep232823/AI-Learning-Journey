@@ -1,0 +1,9 @@
+Python is a programming language known for its simple syntax.
+
+Python is commonly used for automation, web development,
+data analysis, artificial intelligence, and machine learning.
+
+Python uses indentation to define blocks of code.
+
+Lists in Python are ordered collections and can contain
+multiple values.

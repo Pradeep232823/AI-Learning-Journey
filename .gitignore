@@ -8,3 +8,4 @@ venv/
 .git/
 .pytest_cache/
 Notes/
+conversations.json
