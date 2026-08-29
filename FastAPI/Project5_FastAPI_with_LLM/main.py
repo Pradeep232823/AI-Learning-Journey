@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
-from ai_service import ask_ai
+from FastAPI.Project5_FastAPI_with_LLM.ai_service import ask_ai
 
 app = FastAPI()
 
