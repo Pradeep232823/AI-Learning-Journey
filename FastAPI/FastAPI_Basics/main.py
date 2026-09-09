@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-import FastAPI.Project4_FastAPI_Basics.calculator as calculator
+import FastAPI.FastAPI_Basics.calculator as calculator
 
 app = FastAPI()
 
